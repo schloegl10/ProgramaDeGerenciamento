@@ -1,4 +1,4 @@
-package Variaveis
+package variaveis
 
 class ObjetoBanco {
     Long id
