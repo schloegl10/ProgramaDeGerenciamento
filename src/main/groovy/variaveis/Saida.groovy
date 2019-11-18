@@ -1,4 +1,4 @@
-package Variaveis
+package variaveis
 
 class Saida extends Movimentacao {
     //Cliente comprador

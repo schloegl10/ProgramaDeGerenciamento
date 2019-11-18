@@ -1,4 +1,4 @@
-package Variaveis
+package variaveis
 
 class Movimentacao extends ObjetoBanco{
     Produto produto

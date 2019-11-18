@@ -1,4 +1,4 @@
-package Variaveis
+package variaveis
 
 class MateriaPrima extends ObjetoBanco {
     long idProdutoFinal

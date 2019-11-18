@@ -1,4 +1,4 @@
-package Variaveis
+package variaveis
 
 class Fornecedor extends ObjetoBanco {
     List<String> contatos

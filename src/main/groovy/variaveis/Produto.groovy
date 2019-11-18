@@ -1,4 +1,4 @@
-package Variaveis
+package variaveis
 
 class Produto extends ObjetoBanco{
     protected String nome
