@@ -25,9 +25,12 @@
         <property name = "hibernate.connection.password">
             Schloegl@20
         </property>
+        <property name = "hibernate.hbm2ddl.auto">
+            create
+        </property>
 
         <!-- List of XML mapping files -->
-        <mapping resource = "Employee.hbm.xml"/>
+        <mapping resource = "Entrada.hbm.xml"/>
 
     </session-factory>
 </hibernate-configuration>
