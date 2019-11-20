@@ -3,7 +3,7 @@ package Hibernate
 import org.hibernate.Session
 import org.hibernate.SessionFactory
 import org.hibernate.cfg.Configuration
-import variaveis.ObjetoBanco
+import dominio.ObjetoBanco
 
 import javax.imageio.spi.ServiceRegistry
 

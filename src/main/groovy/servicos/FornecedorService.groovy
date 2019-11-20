@@ -1,25 +1,13 @@
 package servicos
 
-import variaveis.ObjetoBanco
+import Hibernate.Ambiente
+import dominio.Fornecedor
+import dominio.ObjetoBanco
 
-class FornecedorService implements AbstractService {
-    @Override
-    void save(List<ObjetoBanco> objeto) {
+class FornecedorService extends BaseService {
+    Fornecedor fornecedor
 
-    }
-
-    @Override
-    void delet(List<ObjetoBanco> objeto) {
-
-    }
-
-    @Override
-    List<ObjetoBanco> GetById(List<Long> ids) {
-        return null
-    }
-
-    @Override
-    List<ObjetoBanco> GetAll() {
-        return null
+    FornecedorService() {
+        ambiente = new Ambiente(fornecedor)
     }
 }

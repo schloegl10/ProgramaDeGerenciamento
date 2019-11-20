@@ -1,25 +1,12 @@
 package servicos
 
-import variaveis.ObjetoBanco
+import Hibernate.Ambiente
+import dominio.Produto
 
-class ProdutoService implements AbstractService {
-    @Override
-    void save(List<ObjetoBanco> objeto) {
+class ProdutoService extends BaseService {
+    Produto produto
 
-    }
-
-    @Override
-    void delet(List<ObjetoBanco> objeto) {
-
-    }
-
-    @Override
-    List<ObjetoBanco> GetById(List<Long> ids) {
-        return null
-    }
-
-    @Override
-    List<ObjetoBanco> GetAll() {
-        return null
+    ProdutoService() {
+        ambiente = new Ambiente(produto)
     }
 }

@@ -1,29 +1,14 @@
 package servicos
 
 import Hibernate.Ambiente
-import variaveis.Entrada
-import variaveis.ObjetoBanco
+import dominio.Entrada
+import dominio.ObjetoBanco
 
-class EntradaService implements AbstractService {
+class EntradaService extends BaseService {
     Entrada entrada
-    @Override
-    void save(List<ObjetoBanco> objeto) {
-        Ambiente ambiente = new Ambiente(entrada)
-        ambiente.session.save(objeto)
+
+    EntradaService() {
+        ambiente = new Ambiente(entrada)
     }
 
-    @Override
-    void delet(List<ObjetoBanco> objeto) {
-
-    }
-
-    @Override
-    List<ObjetoBanco> GetById(List<Long> ids) {
-        return null
-    }
-
-    @Override
-    List<ObjetoBanco> GetAll() {
-        return null
-    }
 }
