@@ -1,4 +1,4 @@
-package variaveis
+package dominio
 
 class Movimentacao extends ObjetoBanco{
     Produto produto

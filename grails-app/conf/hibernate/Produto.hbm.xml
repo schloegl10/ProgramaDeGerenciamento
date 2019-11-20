@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+        <!DOCTYPE hibernate-mapping PUBLIC
+                "-//Hibernate/Hibernate Mapping DTD//EN"
+                "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "dominio.Produto" table = "ENTRADA">
+
+        <id name = "id" type = "int" column = "id">
+            <generator class="native"/>
+        </id>
+
+        <property name = "nome" column = "NOME" type = "string"/>
+        <property name = "codigo" column = "CODIGO" type = "int"/>
+        <property name = "quantidadeAtual" column = "QUANTIDADEATUAL" type = "big_decimal"/>
+        <property name = "TipoUnidade" column = "TIPOUNIDADE" type = "string"/>
+        <property name = "quantidadeLimiteMinimo" column = "QUANTIDADELIMITEMINIMO" type = "big_decimal"/>
+        <property name = "perecivel" column = "PERECIVEL" type = "boolean"/>
+
+    </class>
+</hibernate-mapping>

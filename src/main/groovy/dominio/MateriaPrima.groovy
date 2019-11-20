@@ -1,4 +1,4 @@
-package variaveis
+package dominio
 
 class MateriaPrima extends ObjetoBanco {
     long idProdutoFinal

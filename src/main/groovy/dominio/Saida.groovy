@@ -1,4 +1,4 @@
-package variaveis
+package dominio
 
 class Saida extends Movimentacao {
     //Cliente comprador

@@ -1,7 +1,7 @@
-package variaveis
+package dominio
 
 class Produto extends ObjetoBanco{
-    protected String nome
+    String nome
     long codigo
     List<MateriaPrima> materiasPrimas
     BigDecimal quantidadeAtual

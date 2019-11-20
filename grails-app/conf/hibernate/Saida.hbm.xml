@@ -4,19 +4,16 @@
                 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name = "dominio.Entrada" table = "ENTRADA">
+    <class name = "dominio.Saida" table = "SAIDA">
 
         <id name = "id" type = "int" column = "id">
             <generator class="native"/>
         </id>
 
-        <property name = "fronecedor" column = "FORNECEDOR" type = "int"/>
-        <property name = "usouMateriaPrima" column = "USOUMATERIAPRIMA" type = "boolean"/>
-        <property name = "dataVencimento" column = "DATAVENCIMENTO" type = "date"/>
+        <property name = "perda" column = "PERDA" type = "boolean"/>
         <property name = "produto" column = "PRODUTO" type = "int"/>
         <property name = "valor" column = "VALOR" type = "big_decimal"/>
         <property name = "quantidade" column = "QUANTIDADE" type = "big_decimal"/>
         <property name = "data" column = "DATA" type = "date"/>
-
     </class>
 </hibernate-mapping>

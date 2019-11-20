@@ -1,4 +1,4 @@
-package variaveis
+package dominio
 
 import javax.persistence.*
 

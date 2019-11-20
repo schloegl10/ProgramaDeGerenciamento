@@ -1,4 +1,4 @@
-package variaveis
+package dominio
 
 class Fornecedor extends ObjetoBanco {
     List<String> contatos
